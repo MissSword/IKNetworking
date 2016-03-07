@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		515EA0E27B0505AF5FDAC78B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AFA35092BA27045EDCF0A3 /* libPods.a */; };
+		A9E070EF1C8D255200E2A814 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E070EE1C8D255200E2A814 /* main.m */; };
+		A9E070F21C8D255200E2A814 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E070F11C8D255200E2A814 /* AppDelegate.m */; };
+		A9E070F51C8D255200E2A814 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E070F41C8D255200E2A814 /* ViewController.m */; };
+		A9E070F81C8D255200E2A814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E070F61C8D255200E2A814 /* Main.storyboard */; };
+		A9E070FA1C8D255200E2A814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E070F91C8D255200E2A814 /* Assets.xcassets */; };
+		A9E070FD1C8D255200E2A814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E070FB1C8D255200E2A814 /* LaunchScreen.storyboard */; };
+		A9E0710F1C8D257800E2A814 /* IKNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E071061C8D257800E2A814 /* IKNetworkConfig.m */; };
+		A9E071101C8D257800E2A814 /* IKNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E071081C8D257800E2A814 /* IKNetworkManager.m */; };
+		A9E071111C8D257800E2A814 /* IKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0710A1C8D257800E2A814 /* IKRequest.m */; };
+		A9E071121C8D257800E2A814 /* IKRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E0710C1C8D257800E2A814 /* IKRequestTool.m */; };
+		A9E071161C8D652E00E2A814 /* IKTestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E071151C8D652E00E2A814 /* IKTestRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02AFA35092BA27045EDCF0A3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E070EA1C8D255200E2A814 /* IKRequestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKRequestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E070EE1C8D255200E2A814 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9E070F01C8D255200E2A814 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9E070F11C8D255200E2A814 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9E070F31C8D255200E2A814 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9E070F41C8D255200E2A814 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9E070F71C8D255200E2A814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9E070F91C8D255200E2A814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9E070FC1C8D255200E2A814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9E070FE1C8D255200E2A814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9E071051C8D257800E2A814 /* IKNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKNetworkConfig.h; sourceTree = "<group>"; };
+		A9E071061C8D257800E2A814 /* IKNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKNetworkConfig.m; sourceTree = "<group>"; };
+		A9E071071C8D257800E2A814 /* IKNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKNetworkManager.h; sourceTree = "<group>"; };
+		A9E071081C8D257800E2A814 /* IKNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKNetworkManager.m; sourceTree = "<group>"; };
+		A9E071091C8D257800E2A814 /* IKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKRequest.h; sourceTree = "<group>"; };
+		A9E0710A1C8D257800E2A814 /* IKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKRequest.m; sourceTree = "<group>"; };
+		A9E0710B1C8D257800E2A814 /* IKRequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKRequestTool.h; sourceTree = "<group>"; };
+		A9E0710C1C8D257800E2A814 /* IKRequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKRequestTool.m; sourceTree = "<group>"; };
+		A9E071141C8D652E00E2A814 /* IKTestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKTestRequest.h; sourceTree = "<group>"; };
+		A9E071151C8D652E00E2A814 /* IKTestRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKTestRequest.m; sourceTree = "<group>"; };
+		C707C8641D66CE719C2FA5C9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F769A1393684B4FDDD27F872 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9E070E71C8D255200E2A814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515EA0E27B0505AF5FDAC78B /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59334DDC9CA09BE53873D03F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02AFA35092BA27045EDCF0A3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9E070E11C8D255200E2A814 = {
+			isa = PBXGroup;
+			children = (
+				A9E070EC1C8D255200E2A814 /* IKRequestDemo */,
+				A9E070EB1C8D255200E2A814 /* Products */,
+				CA4B4B607E8ED5DFFE3D3F7B /* Pods */,
+				59334DDC9CA09BE53873D03F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9E070EB1C8D255200E2A814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9E070EA1C8D255200E2A814 /* IKRequestDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9E070EC1C8D255200E2A814 /* IKRequestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A9E071041C8D257800E2A814 /* IKNetworking */,
+				A9E070F01C8D255200E2A814 /* AppDelegate.h */,
+				A9E070F11C8D255200E2A814 /* AppDelegate.m */,
+				A9E071141C8D652E00E2A814 /* IKTestRequest.h */,
+				A9E071151C8D652E00E2A814 /* IKTestRequest.m */,
+				A9E070F31C8D255200E2A814 /* ViewController.h */,
+				A9E070F41C8D255200E2A814 /* ViewController.m */,
+				A9E070F61C8D255200E2A814 /* Main.storyboard */,
+				A9E070F91C8D255200E2A814 /* Assets.xcassets */,
+				A9E070FB1C8D255200E2A814 /* LaunchScreen.storyboard */,
+				A9E070FE1C8D255200E2A814 /* Info.plist */,
+				A9E070ED1C8D255200E2A814 /* Supporting Files */,
+			);
+			path = IKRequestDemo;
+			sourceTree = "<group>";
+		};
+		A9E070ED1C8D255200E2A814 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9E070EE1C8D255200E2A814 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9E071041C8D257800E2A814 /* IKNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A9E071051C8D257800E2A814 /* IKNetworkConfig.h */,
+				A9E071061C8D257800E2A814 /* IKNetworkConfig.m */,
+				A9E071071C8D257800E2A814 /* IKNetworkManager.h */,
+				A9E071081C8D257800E2A814 /* IKNetworkManager.m */,
+				A9E071091C8D257800E2A814 /* IKRequest.h */,
+				A9E0710A1C8D257800E2A814 /* IKRequest.m */,
+				A9E0710B1C8D257800E2A814 /* IKRequestTool.h */,
+				A9E0710C1C8D257800E2A814 /* IKRequestTool.m */,
+			);
+			path = IKNetworking;
+			sourceTree = "<group>";
+		};
+		CA4B4B607E8ED5DFFE3D3F7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F769A1393684B4FDDD27F872 /* Pods.debug.xcconfig */,
+				C707C8641D66CE719C2FA5C9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9E070E91C8D255200E2A814 /* IKRequestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9E071011C8D255200E2A814 /* Build configuration list for PBXNativeTarget "IKRequestDemo" */;
+			buildPhases = (
+				F0A2FF4EF8D75BDBE4A6130D /* Check Pods Manifest.lock */,
+				A9E070E61C8D255200E2A814 /* Sources */,
+				A9E070E71C8D255200E2A814 /* Frameworks */,
+				A9E070E81C8D255200E2A814 /* Resources */,
+				31086BF21952E5F49D1D926A /* Embed Pods Frameworks */,
+				4ED4DC27F6D9C4C00BE2E57B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IKRequestDemo;
+			productName = IKRequestDemo;
+			productReference = A9E070EA1C8D255200E2A814 /* IKRequestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9E070E21C8D255200E2A814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZXJ;
+				TargetAttributes = {
+					A9E070E91C8D255200E2A814 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A9E070E51C8D255200E2A814 /* Build configuration list for PBXProject "IKRequestDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9E070E11C8D255200E2A814;
+			productRefGroup = A9E070EB1C8D255200E2A814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9E070E91C8D255200E2A814 /* IKRequestDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9E070E81C8D255200E2A814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E070FD1C8D255200E2A814 /* LaunchScreen.storyboard in Resources */,
+				A9E070FA1C8D255200E2A814 /* Assets.xcassets in Resources */,
+				A9E070F81C8D255200E2A814 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31086BF21952E5F49D1D926A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ED4DC27F6D9C4C00BE2E57B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0A2FF4EF8D75BDBE4A6130D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9E070E61C8D255200E2A814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E0710F1C8D257800E2A814 /* IKNetworkConfig.m in Sources */,
+				A9E070F51C8D255200E2A814 /* ViewController.m in Sources */,
+				A9E071121C8D257800E2A814 /* IKRequestTool.m in Sources */,
+				A9E070F21C8D255200E2A814 /* AppDelegate.m in Sources */,
+				A9E071111C8D257800E2A814 /* IKRequest.m in Sources */,
+				A9E070EF1C8D255200E2A814 /* main.m in Sources */,
+				A9E071101C8D257800E2A814 /* IKNetworkManager.m in Sources */,
+				A9E071161C8D652E00E2A814 /* IKTestRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9E070F61C8D255200E2A814 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9E070F71C8D255200E2A814 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9E070FB1C8D255200E2A814 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9E070FC1C8D255200E2A814 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9E070FF1C8D255200E2A814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9E071001C8D255200E2A814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9E071021C8D255200E2A814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F769A1393684B4FDDD27F872 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IKRequestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LXD.IKRequestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9E071031C8D255200E2A814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C707C8641D66CE719C2FA5C9 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IKRequestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LXD.IKRequestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9E070E51C8D255200E2A814 /* Build configuration list for PBXProject "IKRequestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E070FF1C8D255200E2A814 /* Debug */,
+				A9E071001C8D255200E2A814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9E071011C8D255200E2A814 /* Build configuration list for PBXNativeTarget "IKRequestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E071021C8D255200E2A814 /* Debug */,
+				A9E071031C8D255200E2A814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9E070E21C8D255200E2A814 /* Project object */;
+}

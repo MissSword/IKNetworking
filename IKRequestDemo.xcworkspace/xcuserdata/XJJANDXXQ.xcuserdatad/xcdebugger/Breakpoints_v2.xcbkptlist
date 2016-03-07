@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IKRequestDemo/IKNetworking/IKNetworkManager.m"
+            timestampString = "479016986.362008"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "-addRequest:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IKRequestDemo/IKNetworking/IKNetworkManager.m"
+            timestampString = "479016995.817195"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "-addRequest:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IKRequestDemo/IKNetworking/IKNetworkManager.m"
+            timestampString = "479016997.382522"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "-addRequest:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__31-[IKNetworkManager addRequest:]_block_invoke76"
+                  moduleName = "IKRequestDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XJJANDXXQ/Desktop/iOS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/IKRequestDemo/IKRequestDemo/IKNetworking/IKNetworkManager.m"
+                  timestampString = "479016997.384123"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "135">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__copy_helper_block_79"
+                  moduleName = "IKRequestDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XJJANDXXQ/Desktop/iOS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/IKRequestDemo/IKRequestDemo/IKNetworking/IKNetworkManager.m"
+                  timestampString = "479016997.384311"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_80"
+                  moduleName = "IKRequestDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/XJJANDXXQ/Desktop/iOS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/IKRequestDemo/IKRequestDemo/IKNetworking/IKNetworkManager.m"
+                  timestampString = "479016997.384446"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
